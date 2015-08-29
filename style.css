@@ -1,0 +1,51 @@
+.plant_images {
+  height: 500px;
+  width: 780px;
+  position: relative;
+  margin: 0 auto;
+    
+}
+
+[class^='sub_img_'] {
+  height: 200px;
+  width: 200px;
+  display: block;
+  position: absolute;
+  z-index: 20;
+  background-color: blue;
+  border: black 3px solid;
+}
+
+.sub_img_1 {
+
+}
+
+.sub_img_2 {
+  right: 0;
+}
+
+.sub_img_3 {
+  bottom: 0;
+}
+
+.sub_img_4 {
+  bottom: 0;
+  right: 0;
+}
+
+.main_img {
+  height: 400px;
+  width: 400px;
+  left: 190px;
+  top: 50px;
+  position: absolute;
+  display: block;
+  background-color: red;
+  z-index: 1;
+  border: black 3px solid;
+}
+
+section {
+  text-align: center;
+  margin-bottom: 50px;
+}
