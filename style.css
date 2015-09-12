@@ -11,27 +11,11 @@
   width: 200px;
   display: block;
   position: absolute;
-  z-index: 20;
-  background-color: ghostwhite;
+  z-index: 20; 
+  background-color: blue;
   border: black 3px solid;
 }
 
-.sub_img_1 {
-
-}
-
-.sub_img_2 {
-  right: 0;
-}
-
-.sub_img_3 {
-  bottom: 0;
-}
-
-.sub_img_4 {
-  bottom: 0;
-  right: 0;
-}
 
 .main_img {
   height: 400px;
@@ -40,48 +24,71 @@
   top: 50px;
   position: absolute;
   display: block;
-  background-color: azure;
+  background-color: red;
   z-index: 1;
-  border: black 3px solid;
+  border: black 3px solid;  
 }
 
 section {
-  text-align: left;
-  margin-bottom: 50px;  
-}
-
-p.main {
-  text-align: justify;
-  font-size: 1em;
-}
-
-
-body {
-    font-size: 100%;
-}
-
-h1 {
   text-align: center;
-  font-size: 2.5em;
+  margin-bottom: 50px;
 }
 
-h2 {
-  text-align: left;
-  font-size: 1.875em;
-}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px) {
+    body {
+      background-color:aqua;
+    }
+    .sub_img_1 {
+      display:none;
+    }
 
-p {
-    font-size: em;
+    .sub_img_2 {
+      display:none;
+    }
+
+    .sub_img_3 {
+      display:none;
+    }
+
+    .sub_img_4 {
+      display:none;
+    }
 }
-h3 {  
-  text-align: center;
-  font-size: 30px;  
-}
+@media (max-width: 40em) {
+  [class^="sub_img"] {
+    visibility:hidden;
+  }
+
+  .plant_images {
+    width: 100%;
+  }
   
-h4 {
-  text-align: left;
-  font-size: 15px;
+  .main_img {
+    margin: 0 auto;
+    position: initial;
+  }
 }
 
+@media only screen 
+  and (min-device-width: 480px)  {
+    
+    .sub_img_1 {
 
+    }
 
+    .sub_img_2 {
+      right: 0;
+    }
+
+    .sub_img_3 {
+      bottom: 0;
+    }
+
+    .sub_img_4 {
+      bottom: 0;
+      right: 0;
+    }
+
+}
