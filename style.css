@@ -28,7 +28,15 @@ a {
   text-decoration: none;
 }
 
+.w {
+  width: 90%;
+  margin: auto;
+  text-align: justify;
+}
 
+.j {
+text-align: justify;
+}
 /* Images */
 
 .plant_images {
@@ -37,6 +45,9 @@ a {
   position: relative;
   margin: 0 auto; 
     
+}
+images {
+max-width: 100%;
 }
 
 [class^='sub_img_'] {
@@ -61,6 +72,8 @@ a {
   border: black 3px solid;  
 }
 
+/* Section */
+
 section {
   text-align: center;
   margin-bottom: 60px;
@@ -74,12 +87,9 @@ p {
   
 }
 
-p.ex {
-  height: 00px;
-  width:  100px:
-}
 
 
+/* Media */
 
 @media only screen 
   and (min-device-width: 320px) 
@@ -103,6 +113,7 @@ p.ex {
       display: none;
     }
 }
+
 @media (max-width: 40em) {
   [class^="sub_img"] {
     visibility: hidden;
@@ -112,19 +123,21 @@ p.ex {
     width: 80%;
   }
   
-  .main_img {
-    margin: 0 auto;
+  .main_img {   
     position: initial;
   }
 }
-
-
 
 @media only screen 
   and (min-device-width: 480px)  {
     
     .sub_img_1 {
 
+    }
+    
+    .main_img {
+     max-width: 100%;
+     margin: auto;   
     }
 
     .sub_img_2 {
@@ -141,6 +154,8 @@ p.ex {
     }
 
 }
+
+
 /*  hover for photos */
 
 div.images a:hover img {
@@ -149,16 +164,16 @@ div.images a:hover img {
 
 
 /*  Footer  */
-
-
 footer {
   height: 250px;  
-  background-image: url('images/048a.jpg'); 
+  img src= url('images/048a.jpg'); 
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
-
+img.2{
+  
+}
 
 
 
