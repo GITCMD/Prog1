@@ -1,20 +1,41 @@
+/* Main Styles */
+
 body{
-  background-color: orange;
+  background-color: ;
 }
+
+a h1 {
+  height: 250px;  
+  background-image: url('images/DSCN3236a.jpg'); 
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+
+/* Nav */
 
 #navcontainer ul {
   list-style-type: none;
 }
+
 a {
   text-decoration: none;
 }
+
+
+/* Images */
 
 .plant_images {
   height: 500px;
   width: 780px;
   position: relative;
-  margin: 0 auto;
-  
+  margin: 0 auto; 
     
 }
 
@@ -26,8 +47,7 @@ a {
   z-index: 20; 
   background-color: antiquewhite;
   border: black 3px solid;
-}
-
+} 
 
 .main_img {
   height: 400px;
@@ -43,13 +63,23 @@ a {
 
 section {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   text-decoration: none;
 }
 
+
+
 p {
   text-align: left;
+  
 }
+
+p.ex {
+  height: 00px;
+  width:  100px:
+}
+
+
 
 @media only screen 
   and (min-device-width: 320px) 
@@ -58,28 +88,28 @@ p {
       background-color:aqua;
     }
     .sub_img_1 {
-      display:none;
+      display: none;
     }
 
     .sub_img_2 {
-      display:none;
+      display: none;
     }
 
     .sub_img_3 {
-      display:none;
+      display: none;
     }
 
     .sub_img_4 {
-      display:none;
+      display: none;
     }
 }
 @media (max-width: 40em) {
   [class^="sub_img"] {
-    visibility:hidden;
+    visibility: hidden;
   }
 
   .plant_images {
-    width: 100%;
+    width: 80%;
   }
   
   .main_img {
@@ -87,6 +117,8 @@ p {
     position: initial;
   }
 }
+
+
 
 @media only screen 
   and (min-device-width: 480px)  {
@@ -109,3 +141,42 @@ p {
     }
 
 }
+/*  hover for photos */
+
+div.images a:hover img {
+    border: 5px solid green;
+}
+
+
+/*  Footer  */
+
+
+footer {
+  height: 250px;  
+  background-image: url('images/048a.jpg'); 
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
