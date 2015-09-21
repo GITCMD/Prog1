@@ -9,34 +9,101 @@ a h1 {
   background-image: url('images/DSCN3236a.jpg'); 
   background-size: 100%;
   background-repeat: no-repeat;
-
+  
 }
 
+Container h2 a:hover{
+
+}
+ a{
+  text-decoration:none;
+   
+}
 h1 {
   color: black;
-  text-align: center;
+  text-align: center; 
+  padding: 50px;
+  padding-left:  100px;
 }
 
+h2:hover {
+  color: green;
+}
+
+h3 {
+text-size: 200%;
+}
+
+p {
+font-size: 100%;
+}
+
+div a:hover h2{
+
+}
+}
+#headerContainer ul {    
+  list-style: none;
+}
 
 /* Nav */
 
-#navcontainer ul {
-  list-style-type: none;
+#navContainer ul {
+  list-style-type: none;  
 }
 
-a {
+
+
+.headerContent {
+  width: 1024px;
+  height: auto;
+  margin: 0 auto;
+  background: ;
+}
+
+nav {
+
+height: 40px;
+background: orange;  
+border-bottom: 2px solid white;  
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+nav ul li a {
   text-decoration: none;
+  float: left;
+  display:  table-row-group;
+  padding: 10px 40px;
+  color: black;
+    
 }
 
+nav ul li a:hover {
+   color: green; 
+}
+
+
+/* Paragraphs */
 .w {
   width: 90%;
   margin: auto;
   text-align: justify;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .j {
 text-align: justify;
 }
+
+
+
 /* Images */
 
 .plant_images {
