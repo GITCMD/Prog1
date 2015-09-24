@@ -1,11 +1,11 @@
 /* General */
 
 body{
-  background-color: white;
-  color: darkslategrey;
+  background-color: whitesmoke;
+ 
 }
 
-a h1 {
+ h1 {
   height: 250px;  
   background-image: url('images/DSCN3236a.jpg'); 
   background-size: 100%;
@@ -14,11 +14,10 @@ a h1 {
 
 
  a{
-  text-decoration:none;
-   
+  text-decoration:none;   
 }
 
-imgagesS{
+imgages {
   max-width: 100%;
 }
 
@@ -35,11 +34,12 @@ h2 {
   color: black;
 }
 
+a:hover h2{
+  color: green;
+
+}
 
 
-
-header h2 a:hover {
-  color: red;
 }
 
 h3 {
@@ -50,10 +50,6 @@ p {
 font-size: 100%;
 }
 
-a:hover h2{
-  color: green;
-
-}
 
 /* Nav */
 
@@ -187,6 +183,7 @@ section {
     .main_img {
       margin:0;
       padding: 0;
+      position: initial;
        
     }
     
@@ -243,7 +240,7 @@ section {
 
 /*  hover for photos */
 
-div.images a:hover img {
+images a:hover img {
     border: 5px solid green;
     
 }
@@ -257,9 +254,7 @@ footer {
   background-repeat: no-repeat;
 }
 
-img.2{
-  
-}
+
 
 
 
