@@ -18,7 +18,7 @@ a h1 {
    
 }
 
-imgagesS{
+imgages{
   max-width: 100%;
 }
 
@@ -33,13 +33,6 @@ h1 {
 
 h2 {
   color: black;
-}
-
-
-
-
-header h2 a:hover {
-  color: red;
 }
 
 h3 {
@@ -249,16 +242,40 @@ div.images a:hover img {
 }
 
 
+/* Modal Window   */
+
+/* Making sure that the modal window is hidden by default and on top of all other elements on the website. */
+.modalwindow {
+  position:fixed;
+  width:40%;
+  height:auto;
+  display:none;
+  padding:20px;
+}
+ 
+/* Customize your modal window here, you can add background image too */
+#modal {
+  width:35%;
+  height: auto;
+  background: green;
+}
+
+#modal img {
+  width: 100%;
+  height: auto;
+}
+
 /*  Footer  */
-footer {
+footer img{
   height: 250px;  
   img src= url('images/048a.jpg'); 
   background-size: 100%;
   background-repeat: no-repeat;
+  border: 2px solid black; 
 }
 
-img.2{
-  
+footer a:hover img {
+ border: 5px solid green; 
 }
 
 
