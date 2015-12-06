@@ -24,7 +24,7 @@ $(document).ready(function() {
     $('.modalwindow .close').click(function (even) {
         //Cancel the link behavior
         event.preventDefault();
-        $('.modalwindow').fadeOut(500);
+        $('.modalwindow').fadeOut(500).remove();
     });             
  
 });
