@@ -21,7 +21,7 @@ $(document).ready(function() {
     });
  
     //if close button is clicked
-    $('.modalwindow .close').click(function (even) {
+    $('.modalwindow .close').click(function (event) {
         //Cancel the link behavior
         event.preventDefault();
         $('.modalwindow').fadeOut(500).remove();
